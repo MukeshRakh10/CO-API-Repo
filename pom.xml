@@ -151,7 +151,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+<!-- 				<configuration>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
@@ -159,7 +159,7 @@
 						</exclude>
 					</excludes>
 				</configuration>
-			</plugin>
+ -->			</plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
