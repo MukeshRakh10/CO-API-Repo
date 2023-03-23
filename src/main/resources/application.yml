@@ -1,15 +1,12 @@
 #Application properties
 server:
   port: 8084
-  
 spring:
   jpa:
-#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
       ddl-auto:  update
   application:
      name: CO-API
-     
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mysqldb:3306/arapidb
@@ -42,12 +39,12 @@ management:
 #    stack:
 #      auto: false
       
-logging:
-  level:
-    com:
-      amazonaws:
-        util:
-          EC2MetadataUtils: error
+#logging:
+#  level:
+#    com:
+#      amazonaws:
+#        util:
+#          EC2MetadataUtils: error
 app:          
  messages:          
   welcomeMsg: Welcome To Mukesh IT !!!
