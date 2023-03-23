@@ -150,6 +150,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>sb-co-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
