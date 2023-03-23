@@ -34,15 +34,15 @@ management:
  #Access Key  : AKIAWXDCWAD3P3IWBDJW
  # Secreate Key : zhq4gMUVvqiF6sDdcxByPxDP0LbySIA8zJMsEyly  
 
-cloud:
-  aws:
-    credentials:
-      access-key: AKIAWXDCWAD3FUQLMLIP
-      secret-key: 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
-    region:
-      static: ap-south-1
-    stack:
-      auto: false
+#cloud:
+#  aws:
+#    credentials:
+#      access-key: AKIAWXDCWAD3FUQLMLIP
+#      secret-key: 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
+#    region:
+#      static: ap-south-1
+#    stack:
+#      auto: false
       
 logging:
   level:
